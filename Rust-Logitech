@@ -1,0 +1,725 @@
+sleep_duration = 32.5 --Play Around With This To Match Your Sensitivity (Default is 32.5)
+MaxBreak = 50
+TimeStamp = -MaxBreak-1	-- it's negative 2 seconds
+sens=0.7 -- This is your in game sens. USE 800 DPI (You might have to fine tune it by using decimal points like 0.35 or 1.05 and stuff)
+recoilbutton=4 --Changes the button of your ak recoil/recoil mode (Default is 4)
+m249button=7 --Changes the button for your m249 mode (Default is 7)
+scopebutton=8 --Changes the button for your scope mode (Default is 8)
+semiautobutton=9 --Changes the button for your semiauto mode (Default is 9)
+ 
+ 
+ak_recoil_coordsx = {
+{ x = 0, y = 0 },   ---1
+{ x = 0, y = 0 },
+{ x = 0, y = 0 },
+{ x = 0, y = 0 },
+ 
+{ x = 0, y = 0 },   ---2
+{ x = 0, y = 0 },
+{ x = 0, y = 0 },
+{ x = 0, y = 0 },
+ 
+{ x = -1.665, y = 0 }, ---3
+{ x = -1.665, y = 0 }, 
+{ x = -1.665, y = 0 },
+{ x = -1.665, y = 0 },
+ 
+{ x = -3.33, y = 0 }, ---4
+{ x = -3.33, y = 0 },
+{ x = -3.33, y = 0 },
+{ x = -3.33, y = 0 }, 
+ 
+{ x = -3.33, y = 0 }, ---5
+{ x = -3.33, y = 0 },
+{ x = -3.33, y = 0 },
+{ x = -3.33, y = 0 },
+ 
+{ x = -4.1625, y = 0 }, ---6
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+ 
+{ x = 3.33, y = 0 },  ---7
+{ x = 3.33, y = 0 },
+{ x = 3.33, y = 0 },
+{ x = 3.33, y = 0 },
+ 
+{ x = 4.995, y = 0 },  ---8
+{ x = 4.995, y = 0 },
+{ x = 4.995, y = 0 },
+{ x = 4.995, y = 0 },
+ 
+{ x = 4.995, y = 0 },  ---9
+{ x = 4.995, y = 0 },
+{ x = 4.995, y = 0 },
+{ x = 4.995, y = 0 }, 
+ 
+{ x = 4.1625, y = 0 }, ---10
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+ 
+{ x = 4.1625, y = 0 }, ---11
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+ 
+{ x = 4.1625, y = 0 }, ---12
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+ 
+{ x = 4.1625, y = 0 }, ---13
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+ 
+{ x = 4.1625, y = 0 }, ---14
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+ 
+{ x = -4.995, y = 0 }, ---15
+{ x = -4.995, y = 0 },
+{ x = -4.995, y = 0 },
+{ x = -4.995, y = 0 },
+ 
+{ x = -4.995, y = 0 }, ---16
+{ x = -4.995, y = 0 },
+{ x = -4.995, y = 0 },
+{ x = -4.995, y = 0 },
+ 
+{ x = -4.995, y = 0 }, ---17
+{ x = -4.995, y = 0 },
+{ x = -4.995, y = 0 },
+{ x = -4.995, y = 0 },
+ 
+{ x = -4.1625, y = 0 },    ---18
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+ 
+{ x = -4.1625, y = 0 },  ---19
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+ 
+{ x = -4.1625, y = 0 },  ---20
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+ 
+{ x = -4.1625, y = 0 }, ---21
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+ 
+{ x = -4.1625, y = 0 }, ---22
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+ 
+{ x = -4.1625, y = 0 }, ---23
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+ 
+{ x = -4.1625, y = 0 }, ---24
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+{ x = -4.1625, y = 0 },
+ 
+{ x = 4.995, y = 0 }, ----25
+{ x = 4.995, y = 0 },
+{ x = 4.995, y = 0 },
+{ x = 4.995, y = 0 },
+ 
+{ x = 4.995, y = 0 }, ---26
+{ x = 4.995, y = 0 }, 
+{ x = 4.995, y = 0 },
+{ x = 4.995, y = 0 },
+ 
+{ x = 4.995, y = 0 }, ---27
+{ x = 4.995, y = 0 },
+{ x = 4.995, y = 0 },
+{ x = 4.995, y = 0 },
+ 
+{ x = 4.1625, y = 0 }, ----28
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+ 
+{ x = 4.1625, y = 0 }, ----29
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+ 
+{ x = 4.1625, y = 0 }, ----29
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+ 
+{ x = 4.1625, y = 0 }, ----29
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+ 
+{ x = 4.1625, y = 0 }, ----29
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+{ x = 4.1625, y = 0 },
+ 
+}
+ 
+ak_recoil_coordsy = {
+{ x = 0, y = 6.66 },   ---1
+{ x = 0, y = 6.66 },
+{ x = 0, y = 6.66 },
+{ x = 0, y = 6.66 },
+ 
+{ x = 0, y = 4.995 },   ---2
+{ x = 0, y = 4.995 },
+{ x = 0, y = 4.995 },
+{ x = 0, y = 4.995 },
+ 
+{ x = 0, y = 4.995 }, ---3
+{ x = 0, y = 4.995 }, 
+{ x = 0, y = 4.995 },
+{ x = 0, y = 4.995 },
+ 
+{ x = 0, y = 4.995 }, ---4
+{ x = 0, y = 4.995 },
+{ x = 0, y = 4.995 },
+{ x = 0, y = 4.995 }, 
+ 
+{ x = 0, y = 2.664 }, ---5
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+ 
+{ x = 0, y = 2.664 }, ---6
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+ 
+{ x = 0, y = 2.664 },  ---7
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+ 
+{ x = 0, y = 2.664 },  ---8
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+ 
+{ x = 0, y = 2.664 },  ---9
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 }, 
+ 
+{ x = 0, y = 2.664 }, ---10
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+ 
+{ x = 0, y = 2.8305 }, ---11
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.8305 }, ---12
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.8305 }, ---13
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.8305 }, ---14
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.8305 }, ---15
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.8305 }, ---16
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.8305 }, ---17
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.8305 },    ---18
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.8305 },  ---19
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.8305 },  ---20
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.8305 }, ---21
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.8305 }, ---22
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.8305 }, ---23
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.8305 }, ---24
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+{ x = 0, y = 2.8305 },
+ 
+{ x = 0, y = 2.664 }, ----25
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+ 
+{ x = 0, y = 2.664 }, ---26
+{ x = 0, y = 2.664 }, 
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+ 
+{ x = 0, y = 2.664 }, ---27
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+ 
+{ x = 0, y = 2.664 }, ----28
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+ 
+{ x = 0, y = 2.664 }, ----29
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+ 
+{ x = 0, y = 2.664 }, ----29
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+ 
+{ x = 0, y = 2.664 }, ----29
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+ 
+{ x = 0, y = 2.664 }, ----29
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+{ x = 0, y = 2.664 },
+ 
+}
+ 
+ 
+ 
+ 
+ 
+ 
+scope_ak_recoil_coords = {
+{ x = 0, y = 24 },   ---1
+{ x = 0, y = 24 },
+{ x = 0, y = 24 },
+{ x = 0, y = 24 },
+ 
+{ x = -3, y = 21 },   ---2
+{ x = -3, y = 21 },
+{ x = -3, y = 21 },
+{ x = -3, y = 21 },
+ 
+{ x = -3, y = 18 }, ---3
+{ x = -6, y = 18 }, 
+{ x = -3, y = 18 },
+{ x = -6, y = 18 },
+ 
+{ x = -12, y = 18 }, ---4
+{ x = -12, y = 18 },
+{ x = -12, y = 18 },
+{ x = -12, y = 18 }, 
+ 
+{ x = -18, y = 9.6 }, ---5
+{ x = -18, y = 9.6 },
+{ x = -18, y = 9.6 },
+{ x = -18, y = 9.6 },
+ 
+{ x = -15, y = 9.6 }, ---6
+{ x = -15, y = 9.6 },
+{ x = -15, y = 9.6 },
+{ x = -15, y = 9.6 },
+ 
+{ x = 12, y = 9.6 },  ---7
+{ x = 12, y = 9.6 },
+{ x = 12, y = 9.6 },
+{ x = 12, y = 9.6 },
+ 
+{ x = 18, y = 9.6 },  ---8
+{ x = 18, y = 9.6 },
+{ x = 18, y = 9.6 },
+{ x = 18, y = 9.6 },
+ 
+{ x = 18, y = 9.6 },  ---9
+{ x = 18, y = 9.6 },
+{ x = 18, y = 9.6 },
+{ x = 18, y = 9.6 }, 
+ 
+{ x = 15, y = 9.6 }, ---3
+{ x = 15, y = 9.6 },
+{ x = 15, y = 9.6 },
+{ x = 15, y = 9.6 },
+ 
+{ x = 15, y = 3.2 }, ---11
+{ x = 15, y = 3.2 },
+{ x = 15, y = 3.2 },
+{ x = 15, y = 3.2 },
+ 
+{ x = 15, y = 3.2 }, ---12
+{ x = 15, y = 3.2 },
+{ x = 15, y = 3.2 },
+{ x = 15, y = 3.2 },
+ 
+{ x = 15, y = 3.2 }, ---13
+{ x = 15, y = 3.2 },
+{ x = 15, y = 3.2 },
+{ x = 15, y = 3.2 },
+ 
+{ x = 15, y = 3.2 }, ---14
+{ x = 15, y = 3.2 },
+{ x = 15, y = 3.2 },
+{ x = 15, y = 3.2 },
+ 
+{ x = -18, y = 3.2 }, ---15
+{ x = -18, y = 3.2 },
+{ x = -18, y = 3.2 },
+{ x = -18, y = 3.2 },
+ 
+{ x = -18, y = 3.2 }, ---16
+{ x = -18, y = 3.2 },
+{ x = -18, y = 3.2 },
+{ x = -18, y = 3.2 },
+ 
+{ x = -18, y = 3.2 }, ---17
+{ x = -18, y = 3.2 },
+{ x = -18, y = 3.2 },
+{ x = -18, y = 3.2 },
+ 
+{ x = -15, y = 3.2 },    ---18
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+ 
+{ x = -15, y = 3.2 },  ---19
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+ 
+{ x = -15, y = 3.2 },  ---6
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+ 
+{ x = -15, y = 3.2 }, ---21
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+ 
+{ x = -15, y = 3.2 }, ---22
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+ 
+{ x = -15, y = 3.2 }, ---23
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+ 
+{ x = -15, y = 3.2 }, ---24
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+{ x = -15, y = 3.2 },
+ 
+{ x = 18, y = 9.6 }, ----25
+{ x = 18, y = 9.6 },
+{ x = 18, y = 9.6 },
+{ x = 18, y = 9.6 },
+ 
+{ x = 18, y = 9.6 }, ---26
+{ x = 18, y = 9.6 }, 
+{ x = 18, y = 9.6 },
+{ x = 18, y = 9.6 },
+ 
+{ x = 18, y = 9.6 }, ---27
+{ x = 18, y = 9.6 },
+{ x = 18, y = 9.6 },
+{ x = 18, y = 9.6 },
+ 
+{ x = 15, y = 9.6 }, ----28
+{ x = 15, y = 9.6 },
+{ x = 15, y = 9.6 },
+{ x = 15, y = 9.6 },
+ 
+{ x = 15, y = 9.6 }, ----29
+{ x = 15, y = 9.6 },
+{ x = 15, y = 9.6 },
+{ x = 15, y = 9.6 },
+ 
+{ x = 15, y = 9.6 }, ----29
+{ x = 15, y = 9.6 },
+{ x = 15, y = 9.6 },
+{ x = 15, y = 9.6 },
+ 
+{ x = 15, y = 9.6 }, ----29
+{ x = 15, y = 9.6 },
+{ x = 15, y = 9.6 },
+{ x = 15, y = 9.6 },
+ 
+{ x = 15, y = 9.6 }, ----29
+{ x = 15, y = 9.6 },
+{ x = 15, y = 9.6 },
+{ x = 15, y = 9.6 },
+ 
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+recoil_count = # ak_recoil_coordsx
+LastIndex = 1
+function OnEvent(event, arg, family)
+    OutputLogMessage("event = %s, arg = %d\n", event, arg)
+    if (event == "PROFILE_ACTIVATED") then
+        EnablePrimaryMouseButtonEvents(true)
+    elseif event == "PROFILE_DEACTIVATED" then
+        ReleaseMouseButton(2)  -- to prevent it from being stuck on
+    end
+    if (event == "MOUSE_BUTTON_PRESSED" and arg == recoilbutton) then
+m249=false
+scope=false
+recoil=false
+stand=false
+        auto = not auto
+        spot = not spot
+    end
+ 
+if (event == "MOUSE_BUTTON_PRESSED" and arg == m249button) then --change this for m249 mode
+        m249 = not m249
+    end
+ 
+if (event == "MOUSE_BUTTON_PRESSED" and arg == scopebutton) then --Change this for the scopemode
+        scope = not scope
+    end
+------------------------------
+if (event == "MOUSE_BUTTON_PRESSED" and arg == semiautobutton) then
+recoil = not recoil
+m249=false
+if (recoil == false) then
+			OutputLogMessage("recoil turned OFF\n")
+		else 
+			OutputLogMessage("recoil turned ON\n")
+		end
+end
+ 
+if (event == "MOUSE_BUTTON_PRESSED" and arg == 1 and recoil and shoot and auto) then
+click = 1
+Click()
+end
+ 
+if (event == "M_RELEASED" and arg == 3) then
+Click()
+end
+ 
+if (event == "MOUSE_BUTTON_RELEASED" and arg == 1) then
+Stopclick()
+end
+ 
+ 
+ 
+function Click() 
+if stand == false and m249==false and scope==false then
+PressAndReleaseMouseButton(1)
+Sleep (10)
+MoveMouseRelative(0, (6.66/sens))
+Sleep (10)
+elseif stand == true and m249==false and scope==false then
+PressAndReleaseMouseButton(1)
+Sleep (10)
+MoveMouseRelative(0, (3.33/sens))
+Sleep (10)
+elseif stand == false and m249==true and scope==false then
+PressAndReleaseMouseButton(1)
+Sleep (10)
+MoveMouseRelative(0, (2.331/sens))
+elseif stand == true and m249==true and scope==false then
+PressAndReleaseMouseButton(1)
+Sleep (10)
+MoveMouseRelative(0, (2.331/sens))
+elseif stand == true and m249==false and scope==true then
+PressAndReleaseMouseButton(1)
+Sleep (10)
+MoveMouseRelative(0, (2.331/sens))
+Sleep (10)
+elseif stand == false and m249==false and scope==true then
+PressAndReleaseMouseButton(1)
+Sleep (10)
+MoveMouseRelative(0, (4.662/sens))
+Sleep (10)
+end
+if click == 0 then
+Stopclick()
+elseif click == 1 then SetMKeyState(3)
+else Stopclick()
+end
+end
+function Stopclick()
+click = 0
+end
+ 
+-----------
+ 
+ 
+ 
+if event == "MOUSE_BUTTON_PRESSED" and arg == 6 and auto  then
+stand = true
+  	elseif event == "MOUSE_BUTTON_RELEASED" and arg == 6 then
+stand = false
+	end
+ 
+if event == "MOUSE_BUTTON_PRESSED" and arg == 2 then
+shoot = true
+  	elseif event == "MOUSE_BUTTON_RELEASED" and arg == 2 then
+shoot = false
+	end
+---shoot
+if event == "MOUSE_BUTTON_PRESSED" and arg == 1 and auto then
+        if shoot then
+            repeat
+          if stand == false and m249==false and scope==false and recoil==false then
+                if (GetRunningTime() - TimeStamp < MaxBreak) and (LastIndex <= recoil_count) then
+			i = LastIndex
+		else
+			i = 1
+		end
+		while i <= recoil_count do
+			Sleep(sleep_duration)
+			if not IsMouseButtonPressed(1) then
+				LastIndex = i
+				TimeStamp = GetRunningTime()
+				break
+			end
+			MoveMouseRelative( (ak_recoil_coordsx[i].x/sens), (ak_recoil_coordsy[i].y/sens) )
+			if not IsMouseButtonPressed(1) then break end
+ 
+			i = i + 1
+		end
+          elseif stand == true and m249==false and scope==false and recoil==false then 
+               if (GetRunningTime() - TimeStamp < MaxBreak) and (LastIndex <= recoil_count) then
+			i = LastIndex
+		else
+			i = 1
+		end
+		while i <= recoil_count do
+			Sleep(sleep_duration)
+			if not IsMouseButtonPressed(1) then
+				LastIndex = i
+				TimeStamp = GetRunningTime()
+				break
+			end
+			MoveMouseRelative( (ak_recoil_coordsx[i].x/sens), (ak_recoil_coordsy[i].y/sens) )
+			if not IsMouseButtonPressed(1) then break end
+ 
+			i = i + 1
+		end
+-------m249
+          elseif stand == true and m249==true and scope==false and recoil==false then 
+                Sleep(11)
+                MoveMouseRelative(0, (2.331/sens))
+            
+ 
+           elseif stand == false and m249==true and scope==false and recoil==false then
+                Sleep(9.5)
+                MoveMouseRelative(0, (3.9/sens))
+           
+-----m249
+----scope
+           elseif stand == true and m249==true and scope==true and recoil==false then
+                Sleep(4.1)
+                MoveMouseRelative(0, (3/sens))
+           
+ 
+          elseif stand == false and m249==true and scope==true and recoil==false then
+                Sleep(5)
+                MoveMouseRelative(0, (7.3/sens))
+ 
+        elseif stand == false and m249==false and scope==true and recoil==false then
+                 if (GetRunningTime() - TimeStamp < MaxBreak) and (LastIndex <= recoil_count) then
+			i = LastIndex
+		else
+			i = 1
+		end
+		while i <= recoil_count do
+			Sleep(sleep_duration)
+			if not IsMouseButtonPressed(1) then
+				LastIndex = i
+				TimeStamp = GetRunningTime()
+				break
+			end
+			MoveMouseRelative( (scope_ak_recoil_coords[i].x/sens), (scope_ak_recoil_coords[i].y/sens) )
+			if not IsMouseButtonPressed(1) then break end
+ 
+			i = i + 1
+		end
+ 
+        elseif stand == true and m249==false and scope==true and recoil==false then
+                if (GetRunningTime() - TimeStamp < MaxBreak) and (LastIndex <= recoil_count) then
+			i = LastIndex
+		else
+			i = 1
+		end
+		while i <= recoil_count do
+			Sleep(sleep_duration)
+			if not IsMouseButtonPressed(1) then
+				LastIndex = i
+				TimeStamp = GetRunningTime()
+				break
+			end
+			MoveMouseRelative( (scope_ak_recoil_coords[i].x/sens), (scope_ak_recoil_coords[i].y/sens) )
+			if not IsMouseButtonPressed(1) then break end
+ 
+			i = i + 1
+		end
+ 
+          end
+            until not IsMouseButtonPressed(1)
+        end
+ 
+ 
+ 
+ 
+ 
+end
+end
