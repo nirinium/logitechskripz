@@ -1,0 +1,113 @@
+EnablePrimaryMouseButtonEvents(true);
+ 
+function OnEvent(event, arg)
+	--only supported in v8.94.108+
+	if IsKeyLockOn("numlock" )then
+		if IsMouseButtonPressed(3)then
+			repeat
+				--norecoil    
+				if IsMouseButtonPressed(1) then
+					PressKey("Q")
+					Sleep(20)
+					ReleaseKey("Q")
+					repeat
+						MoveMouseRelative(0,1)
+						--change this value
+						Sleep(26)
+					until not IsMouseButtonPressed(1)
+				end
+ 
+				--Rapid Fire Script
+				if IsMouseButtonPressed(4) then
+					PressKey("Q")
+					Sleep(20)
+					ReleaseKey("Q")
+					repeat
+						PressMouseButton(1)
+						Sleep(30)
+						ReleaseMouseButton(1)
+						MoveMouseRelative(0,3)
+						Sleep(30)
+					until not IsMouseButtonPressed(4)
+				end
+				
+				--perfect burst
+				if IsMouseButtonPressed(5) then
+					repeat
+						PressMouseButton(1)
+						Sleep(150)
+						ReleaseMouseButton(1)
+						Sleep(170)
+					until not IsMouseButtonPressed(5)
+				end
+			until not IsMouseButtonPressed(3)
+		end
+	
+		--quickscope
+		if IsMouseButtonPressed(5) then
+			repeat
+				PressMouseButton(3)
+				Sleep(30)
+ 
+				PressKey("lshift")
+				--how long the scoping in takes
+				Sleep(380)
+				
+				PressMouseButton(1)
+				Sleep(50)
+				ReleaseMouseButton(1)
+ 
+				ReleaseKey("lshift")
+ 
+				ReleaseMouseButton(3)
+				--how long it takes after shooting to repeat
+				Sleep(500)
+			until not IsMouseButtonPressed(5)
+		end
+	
+		if IsMouseButtonPressed(4) then
+			--zoom in + rapid fire
+			if IsKeyLockOn("capslock") then
+				PressMouseButton(3)
+				PressKey("Q")
+				Sleep(20)
+				ReleaseKey("Q")
+				repeat
+					PressMouseButton(1)
+					Sleep(30)
+					ReleaseMouseButton(1)
+					--change this value
+					MoveMouseRelative(0,3)
+					Sleep(30)
+				until not IsMouseButtonPressed(4)
+				ReleaseMouseButton(3)
+			else
+			--zoom in and normal recoil control
+				PressMouseButton(3)
+				PressMouseButton(1)
+				PressKey("Q")
+				Sleep(20)
+				ReleaseKey("Q")
+				repeat
+					MoveMouseRelative(0,1)
+					--change this value
+					Sleep(33)
+				until not IsMouseButtonPressed(4)
+				ReleaseMouseButton(3)
+				ReleaseMouseButton(1)
+			end
+		end
+		
+		--quick revive
+		if IsMouseButtonPressed(2) then
+			PressKey("4")
+			Sleep(30)
+			ReleaseKey("4")
+			Sleep(700)
+			PressMouseButton(1)
+			Sleep(30)
+			ReleaseMouseButton(1)
+			PressKey("1")
+		end
+	end    
+end
