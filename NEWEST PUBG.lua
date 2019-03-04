@@ -392,7 +392,7 @@ function OnEvent(event, arg)
         Fire = false
         shoot_duration = 0.0
     end
-
+--fastlooting
     while (event == "MOUSE_BUTTON_PRESSED" and arg == 1 and IsModifierPressed(control_key) and IsModifierPressed(ignore_key) and fastloot) do
         ReleaseMouseButton(1)
         PressMouseButton(1)
